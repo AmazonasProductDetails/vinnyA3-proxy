@@ -1,0 +1,32 @@
+{
+  "name": "vinnya3-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server for FEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-arendelle/vinnyA3-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "vinnya#"
+  ],
+  "author": "vinnyA3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-arendelle/vinnyA3-proxy/issues"
+  },
+  "homepage": "https://github.com/team-arendelle/vinnyA3-proxy#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
